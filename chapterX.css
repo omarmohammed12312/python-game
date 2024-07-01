@@ -1,0 +1,18 @@
+body{
+    background-image: url("chapterXA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    margin: 0; /* add this to remove default margin */
+    padding: 0; /* add this to remove default padding */
+    height: 693px;
+    width: 320px;
+}
+@media (min-width: 768px) {
+    body{
+        background-size: 100%;
+        background-image: url("chapterX.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
